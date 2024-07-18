@@ -1,4 +1,8 @@
 // Menu mobile
+function toggleMenu() {
+  const nav = document.querySelector("nav");
+  nav.classList.toggle("mobile");
+}
 
 // Imagem 1
 const imagem1 = document.getElementById("lampada-01");
